@@ -1,0 +1,19 @@
+<div class="card mb-3" style="">
+    <div class="row no-gutters">
+        <div class="col-md-5">
+            <img src="<%= f.profilePic %>" class="card-img" alt="...">
+        </div>
+        <div class="col-md-7">
+            <div class="card-body">
+                <h5 class="card-title"><%= f.firstname + ' ' + f.lastname %></h5>
+                <p>
+                    <span>Runs: <%=f.runs%></span><span>Wickets:
+                        <%=f.wickets%></span>
+                    <br>
+                    <span>Matchs: <%=f.matchPlayed%></span>
+                </p>
+                <a href="#" id= "follows" class="btn btn-primary mr-2 float-right" onclick="follow( <%= f.id %> )">Follow</a>
+            </div>
+        </div>
+    </div>
+</div>

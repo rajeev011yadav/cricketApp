@@ -1,0 +1,109 @@
+:root {
+    --primary: #007bff;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar {
+    padding: 0rem 3rem;
+}
+
+.navbar .profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar .nav-item {
+    padding: .5rem 0.5rem;
+    text-transform: capitalize;
+}
+
+.nav-item.active {
+    background-color: var(--primary) !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.form {
+    min-width: 500px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.flash-messages-box {
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    z-index: 50;
+}
+
+.flash-message {
+    position: relative;
+    width: 20rem;
+    color: white;
+    background-color: var(--primary);
+    padding: 1rem 1rem;
+    padding-right: 2rem;
+    margin-bottom: .5rem;
+
+}
+
+.flash-message .close {
+    position: absolute;
+    color: black;
+    top: 50%;
+    transform: translateY(-50%);
+    right: .9rem;
+}
+
+.left-navigation {
+    height: 88vh !important;
+}
+
+.card {}
+
+.card .card-body {
+    padding: 1rem 10px;
+}
+
+
+.card .card-title {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.card p span {
+    margin-right: 7px;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+#playerSelectionTable .selected {
+    background-color: var(--success) !important;
+    color: white;
+}
+
+#playerSelectionTable tr {
+    cursor: pointer;
+}
